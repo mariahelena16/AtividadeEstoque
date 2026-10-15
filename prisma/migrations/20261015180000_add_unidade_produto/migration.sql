@@ -1,0 +1,1 @@
+ALTER TABLE `Produto` ADD COLUMN `unidade` VARCHAR(30) NOT NULL DEFAULT 'un';

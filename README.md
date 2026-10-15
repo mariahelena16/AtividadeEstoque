@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Almoxarifado
+
+O sistema permite cadastrar produtos com código, descrição, unidade de medida,
+saldo e estoque mínimo; pesquisar o catálogo; registrar entradas e saídas com
+usuário e data; consultar o histórico; e receber alertas de estoque baixo ou
+produto esgotado.
+
+Depois de atualizar o projeto, aplique a migração do campo de unidade e gere o
+cliente Prisma:
+
+```bash
+npx prisma migrate deploy
+npx prisma generate
+```
+
 ## Getting Started
 
 First, run the development server:
